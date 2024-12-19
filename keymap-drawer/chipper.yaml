@@ -33,8 +33,8 @@ layers:
   - Z
   - ESC
   - BACKSPACE
-  - {t: TAB, h: NAV}
-  - {t: ENTER, h: NUM}
+  - {t: TAB, h: NUM}
+  - {t: ENTER, h: NAV}
   - SPACE
   - DEL
   NUM:
@@ -70,8 +70,8 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
@@ -107,8 +107,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYS:
