@@ -116,23 +116,21 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            timeout-ms = <COMBO_TERM_FAST>;
-            require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp TAB>;
-            key-positions = <6 7>;
-        };
-
         escapeleft {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
             bindings = <&kp ESCAPE>;
-            key-positions = <5 6>;
+            key-positions = <0 1>;
         };
 
         SYS_LAYER {
             bindings = <&mo 3>;
             key-positions = <30 31>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
         };
     };
 
@@ -142,30 +140,30 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-  &kp APOS              &kp COMMA         &kp PERIOD        &kp P                     &kp Y        &kp F      &kp G                      &kp C              &kp R              &kp L
-  &hm_l LEFT_CONTROL A  &hm_l LEFT_WIN O  &hm_l LEFT_ALT E  &hm_shift_l LEFT_SHIFT U  &kp I        &kp D      &hm_shift_r RIGHT_SHIFT H  &hm_r RIGHT_ALT T  &hm_r RIGHT_WIN N  &hm_r RCTRL S
-  &kp SEMICOLON         &kp Q             &kp J             &kp K                     &kp X        &kp B      &kp M                      &kp W              &kp V              &kp Z
-                                          &mo 2             &mo 1                     &kp ENTER    &kp SPACE  &kp BACKSPACE              &kp DEL
+  &kp APOS       &kp COMMA     &kp PERIOD    &kp P                 &kp Y      &kp F      &kp G                 &kp C         &kp R         &kp L
+  &hm_l LCTRL A  &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I      &kp D      &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
+  &kp SEMICOLON  &kp Q         &kp J         &kp K                 &kp X      &kp B      &kp M                 &kp W         &kp V         &kp Z
+                               &mo 2         &mo 1                 &kp TAB    &kp ENTER  &kp SPACE             &kp DEL
             >;
         };
 
         raise_layer {
             display-name = "NUM";
             bindings = <
-  &kp GRAVE            &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACKET                         &kp RIGHT_BRACKET        &kp ASTERISK  &kp N7                      &kp N8  &kp N9  &kp N0
-  &hm_l LCTRL AT_SIGN  &kp POUND        &kp DOLLAR      &hm_shift_l LEFT_SHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS     &hm_shift_r RIGHT_SHIFT N4  &kp N5  &kp N6  &hm_r RIGHT_CONTROL PLUS
-  &kp PERCENT          &kp CARET        &kp UNDERSCORE  &kp PIPE                                 &kp AMPERSAND            &kp SLASH     &kp N1                      &kp N2  &kp N3  &kp NON_US_BACKSLASH
-                                        &trans          &trans                                   &trans                   &trans        &trans                      &trans
+  &kp GRAVE       &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACKET                     &kp RIGHT_BRACKET        &kp ASTERISK     &kp N7                 &kp N8  &kp N9  &kp N0
+  &hm_l LCTRL AT  &kp NON_US_HASH  &kp DOLLAR      &hm_shift_l LSHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS         &hm_shift_r RSHIFT N4  &kp N5  &kp N6  &hm_r RCTRL MINUS
+  &kp PERCENT     &kp CARET        &kp UNDERSCORE  &kp PIPE2                            &kp AMPERSAND            &kp NON_US_BSLH  &kp N1                 &kp N2  &kp N3  &kp FSLH
+                                   &trans          &trans                               &trans                   &trans           &trans                 &trans
             >;
         };
 
         lower_layer {
             display-name = "NAV";
             bindings = <
-  &trans     &kp F9  &kp F10            &kp F11                    &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
-  &kp LCTRL  &kp F5  &hm_l LEFT_ALT F6  &hm_shift_l LEFT_SHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RCTRL
-  &trans     &kp F1  &kp F2             &kp F3                     &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans     &trans
-                     &trans             &trans                     &trans     &trans        &trans          &trans
+  &trans     &kp F9  &kp F10        &kp F11                &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
+  &kp LCTRL  &kp F5  &hm_l LALT F6  &hm_shift_l LSHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RCTRL
+  &trans     &kp F1  &kp F2         &kp F3                 &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans     &trans
+                     &trans         &trans                 &trans     &trans        &trans          &trans
             >;
         };
 

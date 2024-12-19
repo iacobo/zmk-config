@@ -11,15 +11,15 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: LEFT CONTROL}
-  - {t: O, h: LEFT WIN}
-  - {t: E, h: LEFT ALT}
-  - {t: U, h: LEFT SHIFT}
+  - {t: A, h: LCTRL}
+  - {t: O, h: LWIN}
+  - {t: E, h: LALT}
+  - {t: U, h: LSHIFT}
   - I
   - D
-  - {t: H, h: RIGHT SHIFT}
-  - {t: T, h: RIGHT ALT}
-  - {t: N, h: RIGHT WIN}
+  - {t: H, h: RSHIFT}
+  - {t: T, h: RALT}
+  - {t: N, h: RWIN}
   - {t: S, h: RCTRL}
   - ;
   - Q
@@ -33,9 +33,9 @@ layers:
   - Z
   - NAV
   - NUM
+  - TAB
   - ENTER
   - SPACE
-  - BACKSPACE
   - DEL
   NUM:
   - '`'
@@ -51,23 +51,23 @@ layers:
   - {t: '@', h: LCTRL}
   - '#'
   - $
-  - {t: (, h: LEFT SHIFT}
+  - {t: (, h: LSHIFT}
   - )
-  - '-'
-  - {t: '4', h: RIGHT SHIFT}
+  - +
+  - {t: '4', h: RSHIFT}
   - '5'
   - '6'
-  - {t: +, h: RIGHT CONTROL}
+  - {t: '-', h: RCTRL}
   - '%'
   - ^
   - _
   - '|'
   - '&'
-  - /
+  - '|'
   - '1'
   - '2'
   - '3'
-  - \
+  - /
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -87,8 +87,8 @@ layers:
   - {t: ▽, type: trans}
   - LCTRL
   - F5
-  - {t: F6, h: LEFT ALT}
-  - {t: F7, h: LEFT SHIFT}
+  - {t: F6, h: LALT}
+  - {t: F7, h: LSHIFT}
   - F8
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -149,9 +149,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [6, 7]
-  k: TAB
-- p: [5, 6]
+- p: [0, 1]
   k: ESCAPE
 - p: [30, 31]
   k: SYS
+- p: [8, 9]
+  k: BACKSPACE
