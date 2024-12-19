@@ -162,10 +162,10 @@
         lower_layer {
             display-name = "NAV";
             bindings = <
-  &trans     &kp F9  &kp F10  &kp F11                    &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
-  &kp LCTRL  &kp F5  &kp F6   &hm_shift_l LEFT_SHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RCTRL
-  &trans     &kp F1  &kp F2   &kp F3                     &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans     &trans
-                     &trans   &trans                     &trans     &trans        &trans          &trans
+  &trans     &kp F9  &kp F10            &kp F11                    &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
+  &kp LCTRL  &kp F5  &hm_l LEFT_ALT F6  &hm_shift_l LEFT_SHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RCTRL
+  &trans     &kp F1  &kp F2             &kp F3                     &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans     &trans
+                     &trans             &trans                     &trans     &trans        &trans          &trans
             >;
         };
 

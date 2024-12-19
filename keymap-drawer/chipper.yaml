@@ -1,72 +1,72 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
   BASE:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
-  - G
-  - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
-  - L
-  - ;
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
+  - ''''
   - ','
   - .
-  - /
-  - DANGER
-  - NUMS
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: A, h: LEFT CONTROL}
+  - {t: O, h: LEFT WIN}
+  - {t: E, h: LEFT ALT}
+  - {t: U, h: LEFT SHIFT}
+  - I
+  - D
+  - {t: H, h: RIGHT SHIFT}
+  - {t: T, h: RIGHT ALT}
+  - {t: N, h: RIGHT WIN}
+  - {t: S, h: RCTRL}
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - NAV
+  - NUM
   - ENTER
   - SPACE
   - BACKSPACE
-  - DANGER
-  NUMS:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '-'
-  - '='
+  - DEL
+  NUM:
   - '`'
+  - '!'
+  - '?'
   - '['
   - ']'
-  - '6'
+  - '*'
   - '7'
   - '8'
   - '9'
   - '0'
+  - {t: '@', h: LCTRL}
+  - '#'
+  - $
+  - {t: (, h: LEFT SHIFT}
+  - )
+  - '-'
+  - {t: '4', h: RIGHT SHIFT}
+  - '5'
+  - '6'
+  - {t: +, h: RIGHT CONTROL}
+  - '%'
+  - ^
   - _
-  - +
-  - '~'
   - '|'
+  - '&'
+  - /
+  - '1'
+  - '2'
+  - '3'
   - \
   - {t: ▽, type: trans}
   - {type: held}
@@ -74,35 +74,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  DANGER:
+  NAV:
+  - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
+  - VOL DN
+  - VOL UP
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - F5
+  - {t: F6, h: LEFT ALT}
+  - {t: F7, h: LEFT SHIFT}
+  - F8
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - RCTRL
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - BT CLR
+  - BRI DN
+  - BRI UP
   - {t: ▽, type: trans}
-  - MUTE
-  - PREVIOUS
-  - NEXT
-  - PLAY PAUSE
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -111,24 +111,47 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  SYS:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT PRV
+  - BT NXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [26, 27]
-  k: ESCAPE
-- p: [27, 28]
+- p: [6, 7]
   k: TAB
-- p: [29, 28]
-  k: '`'
-- p: [1, 0]
+- p: [5, 6]
   k: ESCAPE
-- p: [21, 20]
-  k: Gui+Z
-- p: [19, 18]
-  k: ''''
-- p: [22, 21]
-  k: Gui+X
-- p: [23, 22]
-  k: Gui+C
-- p: [24, 23]
-  k: Gui+V
-- p: [14, 15]
-  k: ESCAPE
+- p: [30, 31]
+  k: SYS
