@@ -31,10 +31,10 @@ layers:
   - W
   - V
   - Z
-  - NAV
-  - NUM
-  - TAB
-  - ENTER
+  - ESC
+  - BACKSPACE
+  - {t: TAB, h: NAV}
+  - {t: ENTER, h: NUM}
   - SPACE
   - DEL
   NUM:
@@ -69,9 +69,9 @@ layers:
   - '3'
   - /
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
@@ -105,9 +105,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,16 +142,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESCAPE
-- p: [30, 31]
-  k: SYS
+  l: [BASE]
 - p: [8, 9]
   k: BACKSPACE
+  l: [BASE]
+- p: [32, 33]
+  k: SYS

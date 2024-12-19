@@ -121,33 +121,35 @@
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-        };
-
-        SYS_LAYER {
-            bindings = <&mo 3>;
-            key-positions = <30 31>;
+            layers = <0>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        sys_layer {
+            bindings = <&mo 3>;
+            key-positions = <32 33>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        alpha_layer {
             display-name = "BASE";
             bindings = <
-  &kp APOS       &kp COMMA     &kp PERIOD    &kp P                 &kp Y      &kp F      &kp G                 &kp C         &kp R         &kp L
-  &hm_l LCTRL A  &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I      &kp D      &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
-  &kp SEMICOLON  &kp Q         &kp J         &kp K                 &kp X      &kp B      &kp M                 &kp W         &kp V         &kp Z
-                               &mo 2         &mo 1                 &kp TAB    &kp ENTER  &kp SPACE             &kp DEL
+  &kp APOS       &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F        &kp G                 &kp C         &kp R         &kp L
+  &hm_l LCTRL A  &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I        &kp D        &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
+  &kp SEMICOLON  &kp Q         &kp J         &kp K                 &kp X        &kp B        &kp M                 &kp W         &kp V         &kp Z
+                               &kp ESC       &kp BACKSPACE         &lt 2 TAB    &lt 1 ENTER  &kp SPACE             &kp DEL
             >;
         };
 
-        raise_layer {
+        sym_num_layer {
             display-name = "NUM";
             bindings = <
   &kp GRAVE       &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACKET                     &kp RIGHT_BRACKET        &kp ASTERISK     &kp N7                 &kp N8  &kp N9  &kp N0
@@ -157,7 +159,7 @@
             >;
         };
 
-        lower_layer {
+        func_nav_layer {
             display-name = "NAV";
             bindings = <
   &trans     &kp F9  &kp F10        &kp F11                &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
@@ -167,7 +169,7 @@
             >;
         };
 
-        layer_3 {
+        bt_layer {
             display-name = "SYS";
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans  &bt BT_CLR
