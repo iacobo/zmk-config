@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
-  - RIGHT
+  - RIGHT ARROW
   - RCTRL
   - {t: ▽, type: trans}
   - F1

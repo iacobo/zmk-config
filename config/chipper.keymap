@@ -143,29 +143,29 @@
         alpha_layer {
             display-name = "BASE";
             bindings = <
-  &kp APOS       &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F        &kp G                 &kp C         &kp R         &kp L
-  &hm_l LCTRL A  &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT I  &kp U        &kp D        &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
-  &kp SEMICOLON  &kp Q         &kp J         &kp K                 &kp X        &kp B        &kp M                 &kp W         &kp V         &kp Z
-                               &kp ESC       &kp BACKSPACE         &lt 1 TAB    &lt 2 ENTER  &kp SPACE             &kp DEL
+  &kp SINGLE_QUOTE  &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F        &kp G                 &kp C         &kp R         &kp L
+  &hm_l LCTRL A     &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT I  &kp U        &kp D        &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
+  &kp SEMICOLON     &kp Q         &kp J         &kp K                 &kp X        &kp B        &kp M                 &kp W         &kp V         &kp Z
+                                  &kp ESC       &kp BACKSPACE         &lt 1 TAB    &lt 2 ENTER  &kp SPACE             &kp DEL
             >;
         };
 
         sym_num_layer {
             display-name = "NUM";
             bindings = <
-  &kp GRAVE       &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACKET                     &kp RIGHT_BRACKET        &kp ASTERISK     &kp N7                 &kp N8  &kp N9  &kp N0
-  &hm_l LCTRL AT  &kp NON_US_HASH  &kp DOLLAR      &hm_shift_l LSHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS         &hm_shift_r RSHIFT N4  &kp N5  &kp N6  &hm_r RCTRL MINUS
-  &kp PERCENT     &kp CARET        &kp UNDERSCORE  &kp PIPE2                            &kp AMPERSAND            &kp NON_US_BSLH  &kp N1                 &kp N2  &kp N3  &kp FSLH
-                                   &trans          &trans                               &trans                   &trans           &trans                 &trans
+  &kp GRAVE            &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACKET                     &kp RIGHT_BRACKET        &kp ASTERISK     &kp N7                 &kp N8  &kp N9  &kp N0
+  &hm_l LCTRL AT_SIGN  &kp NON_US_HASH  &kp DOLLAR      &hm_shift_l LSHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS         &hm_shift_r RSHIFT N4  &kp N5  &kp N6  &hm_r RCTRL MINUS
+  &kp PERCENT          &kp CARET        &kp UNDERSCORE  &kp PIPE2                            &kp AMPERSAND            &kp NON_US_BSLH  &kp N1                 &kp N2  &kp N3  &kp FSLH
+                                        &trans          &trans                               &trans                   &trans           &trans                 &trans
             >;
         };
 
         func_nav_layer {
             display-name = "NAV";
             bindings = <
-  &trans     &kp F9  &kp F10        &kp F11                &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans     &trans
-  &kp LCTRL  &kp F5  &hm_l LALT F6  &hm_shift_l LSHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RCTRL
-  &trans     &kp F1  &kp F2         &kp F3                 &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans     &trans
+  &trans     &kp F9  &kp F10        &kp F11                &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans           &trans
+  &kp LCTRL  &kp F5  &hm_l LALT F6  &hm_shift_l LSHIFT F7  &kp F8     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL
+  &trans     &kp F1  &kp F2         &kp F3                 &kp F4     &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans           &trans
                      &trans         &trans                 &trans     &trans        &trans          &trans
             >;
         };
