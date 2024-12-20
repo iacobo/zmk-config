@@ -14,8 +14,8 @@ layers:
   - {t: A, h: LCTRL}
   - {t: O, h: LWIN}
   - {t: E, h: LALT}
-  - {t: U, h: LSHIFT}
-  - I
+  - {t: I, h: LSHIFT}
+  - U
   - D
   - {t: H, h: RSHIFT}
   - {t: T, h: RALT}
