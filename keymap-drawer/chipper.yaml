@@ -14,8 +14,8 @@ layers:
   - {t: A, h: LCTRL}
   - {t: O, h: LWIN}
   - {t: E, h: LALT}
-  - {t: I, h: LSHIFT}
-  - U
+  - {t: U, h: LSHIFT}
+  - I
   - D
   - {t: H, h: RSHIFT}
   - {t: T, h: RALT}
@@ -49,8 +49,8 @@ layers:
   - '9'
   - '0'
   - {t: '@', h: LCTRL}
-  - '#'
-  - $
+  - _
+  - ^
   - {t: (, h: LSHIFT}
   - )
   - +
@@ -59,10 +59,10 @@ layers:
   - '6'
   - {t: '-', h: RCTRL}
   - '%'
-  - ^
-  - _
   - '|'
   - '&'
+  - '#'
+  - $
   - '|'
   - '1'
   - '2'
@@ -76,9 +76,9 @@ layers:
   - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
+  - F7
+  - F8
   - F9
-  - F10
-  - F11
   - F12
   - VOL DN
   - VOL UP
@@ -86,10 +86,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
-  - F5
-  - {t: F6, h: LALT}
-  - {t: F7, h: LSHIFT}
-  - F8
+  - F4
+  - {t: F5, h: LALT}
+  - {t: F6, h: LSHIFT}
+  - F11
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -99,7 +99,7 @@ layers:
   - F1
   - F2
   - F3
-  - F4
+  - F10
   - BRI DN
   - BRI UP
   - {t: ▽, type: trans}
