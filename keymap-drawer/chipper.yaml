@@ -31,7 +31,7 @@ layers:
   - W
   - V
   - Z
-  - ESC
+  - LSHIFT
   - BACKSPACE
   - {t: TAB, h: NUM}
   - {t: ENTER, h: NAV}
@@ -148,6 +148,43 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  ALPHA:
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - LSHIFT
+  - BACKSPACE
+  - {t: TAB, h: NUM}
+  - {t: ENTER, h: NAV}
+  - SPACE
+  - DEL
 combos:
 - p: [0, 1]
   k: ESCAPE
@@ -158,3 +195,5 @@ combos:
 - p: [32, 33]
   k: SYS
   l: [BASE]
+- p: [30, 35]
+  k: {t: ALPHA, h: toggle}
