@@ -151,7 +151,7 @@
   &kp SINGLE_QUOTE  &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F        &kp G                 &kp C         &kp R         &kp L
   &hm_l LCTRL A     &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I        &kp D        &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
   &kp SEMICOLON     &kp Q         &kp J         &kp K                 &kp X        &kp B        &kp M                 &kp W         &kp V         &kp Z
-                                  &kp LSHIFT    &kp BACKSPACE         &lt 1 TAB    &lt 2 ENTER  &kp SPACE             &kp DEL
+                                  &kp DEL       &lt 1 BACKSPACE       &lt 2 TAB    &lt 2 ENTER  &lt 1 SPACE           &kp DEL
             >;
         };
 

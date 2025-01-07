@@ -31,11 +31,11 @@ layers:
   - W
   - V
   - Z
-  - LSHIFT
-  - BACKSPACE
-  - {t: TAB, h: NUM}
+  - DEL
+  - {t: BACKSPACE, h: NUM}
+  - {t: TAB, h: NAV}
   - {t: ENTER, h: NAV}
-  - SPACE
+  - {t: SPACE, h: NUM}
   - DEL
   NUM:
   - '`'
@@ -69,8 +69,8 @@ layers:
   - '3'
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -107,8 +107,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYS:
