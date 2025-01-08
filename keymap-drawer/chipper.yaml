@@ -33,8 +33,8 @@ layers:
   - Z
   - DEL
   - {t: BACKSPACE, h: NUM}
-  - {t: TAB, h: NAV}
-  - {t: ENTER, h: NAV}
+  - {t: TAB, h: NAV, type: held}
+  - {t: ENTER, h: NAV, type: held}
   - {t: SPACE, h: NUM}
   - DEL
   NUM:
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
-  - {t: ▽, type: trans}
+  - BT NXT
   - F7
   - F8
   - F9
@@ -95,7 +95,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - RCTRL
-  - {t: ▽, type: trans}
+  - BT CLR
   - F1
   - F2
   - F3
@@ -109,43 +109,6 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SYS:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT PRV
-  - BT NXT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ALPHA:
@@ -193,7 +156,7 @@ combos:
   k: BACKSPACE
   l: [BASE]
 - p: [32, 33]
-  k: SYS
+  k: BASE
   l: [BASE]
 - p: [30, 35]
   k: {t: ALPHA, h: toggle}

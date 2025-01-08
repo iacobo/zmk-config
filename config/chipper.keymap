@@ -131,13 +131,13 @@
         };
 
         sys_layer {
-            bindings = <&mo 3>;
+            bindings = <&mo 0>;
             key-positions = <32 33>;
             layers = <0>;
         };
 
         Alpha_only_layer {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <30 35>;
         };
     };
@@ -168,20 +168,10 @@
         func_nav_layer {
             display-name = "NAV";
             bindings = <
-  &trans     &kp F7  &kp F8         &kp F9                 &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans           &trans
-  &kp LCTRL  &kp F4  &hm_l LALT F5  &hm_shift_l LSHIFT F6  &kp F11    &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL
-  &trans     &kp F1  &kp F2         &kp F3                 &kp F10    &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans           &trans
-                     &trans         &trans                 &trans     &trans        &trans          &trans
-            >;
-        };
-
-        bt_layer {
-            display-name = "SYS";
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans  &bt BT_CLR
-  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_PRV  &bt BT_NXT  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans      &trans
+  &bt BT_NXT  &kp F7  &kp F8         &kp F9                 &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans           &trans
+  &kp LCTRL   &kp F4  &hm_l LALT F5  &hm_shift_l LSHIFT F6  &kp F11    &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL
+  &bt BT_CLR  &kp F1  &kp F2         &kp F3                 &kp F10    &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans           &trans
+                      &trans         &trans                 &trans     &trans        &trans          &trans
             >;
         };
 
