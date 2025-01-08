@@ -124,21 +124,9 @@
             layers = <0>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
-        sys_layer {
-            bindings = <&mo 0>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
         Alpha_only_layer {
             bindings = <&tog 3>;
-            key-positions = <30 35>;
+            key-positions = <32 33>;
         };
     };
 
@@ -159,18 +147,18 @@
             display-name = "NUM";
             bindings = <
   &kp GRAVE            &kp EXCLAMATION  &kp QUESTION   &kp LEFT_BRACKET                     &kp RIGHT_BRACKET        &kp ASTERISK     &kp N7                 &kp N8  &kp N9  &kp N0
-  &hm_l LCTRL AT_SIGN  &kp UNDERSCORE   &kp CARET      &hm_shift_l LSHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS         &hm_shift_r RSHIFT N4  &kp N5  &kp N6  &hm_r RCTRL MINUS
+  &hm_l LCTRL AT_SIGN  &kp UNDERSCORE   &kp CARET      &hm_shift_l LSHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp EQUAL        &hm_shift_r RSHIFT N4  &kp N5  &kp N6  &hm_r RCTRL MINUS
   &kp PERCENT          &kp PIPE2        &kp AMPERSAND  &kp NON_US_HASH                      &kp DOLLAR               &kp NON_US_BSLH  &kp N1                 &kp N2  &kp N3  &kp FSLH
                                         &trans         &trans                               &trans                   &trans           &trans                 &trans
             >;
         };
 
-        func_nav_layer {
+        fun_nav_layer {
             display-name = "NAV";
             bindings = <
-  &bt BT_NXT  &kp F7  &kp F8         &kp F9                 &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans           &trans
-  &kp LCTRL   &kp F4  &hm_l LALT F5  &hm_shift_l LSHIFT F6  &kp F11    &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL
-  &bt BT_CLR  &kp F1  &kp F2         &kp F3                 &kp F10    &kp C_BRI_DN  &kp C_BRI_UP    &trans          &trans           &trans
+  &bt BT_NXT  &kp F7  &kp F8         &kp F9                 &kp F12    &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &none            &none
+  &kp LCTRL   &kp F4  &hm_l LALT F5  &hm_shift_l LSHIFT F6  &kp F11    &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RCTRL
+  &bt BT_CLR  &kp F1  &kp F2         &kp F3                 &kp F10    &kp C_BRI_DN  &kp C_BRI_UP    &kp DOWN        &none            &none
                       &trans         &trans                 &trans     &trans        &trans          &trans
             >;
         };

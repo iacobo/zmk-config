@@ -33,8 +33,8 @@ layers:
   - Z
   - DEL
   - {t: BACKSPACE, h: NUM}
-  - {t: TAB, h: NAV, type: held}
-  - {t: ENTER, h: NAV, type: held}
+  - {t: TAB, h: NAV}
+  - {t: ENTER, h: NAV}
   - {t: SPACE, h: NUM}
   - DEL
   NUM:
@@ -53,7 +53,7 @@ layers:
   - ^
   - {t: (, h: LSHIFT}
   - )
-  - +
+  - '='
   - {t: '4', h: RSHIFT}
   - '5'
   - '6'
@@ -83,14 +83,14 @@ layers:
   - VOL DN
   - VOL UP
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - LCTRL
   - F4
   - {t: F5, h: LALT}
   - {t: F6, h: LSHIFT}
   - F11
-  - {t: ▽, type: trans}
+  - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -102,9 +102,9 @@ layers:
   - F10
   - BRI DN
   - BRI UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DOWN
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -152,11 +152,5 @@ combos:
 - p: [0, 1]
   k: ESCAPE
   l: [BASE]
-- p: [8, 9]
-  k: BACKSPACE
-  l: [BASE]
 - p: [32, 33]
-  k: BASE
-  l: [BASE]
-- p: [30, 35]
   k: {t: ALPHA, h: toggle}
