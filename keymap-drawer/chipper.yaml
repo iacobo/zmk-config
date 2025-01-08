@@ -143,11 +143,11 @@ layers:
   - V
   - Z
   - LSHIFT
-  - BACKSPACE
-  - {t: TAB, h: NUM}
-  - {t: ENTER, h: NAV}
-  - SPACE
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHIFT
 combos:
 - p: [0, 1]
   k: ESCAPE
