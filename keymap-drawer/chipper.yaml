@@ -156,3 +156,4 @@ combos:
   k: {t: ALPHA, h: toggle}
 - p: [8, 9]
   k: DELETE
+  l: [BASE]

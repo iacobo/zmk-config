@@ -461,10 +461,6 @@ path.combo {
 <text x="364" y="223" class="combo tap layer-activator">ALPHA</text>
 </a><text x="364" y="234" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="658" y="29" width="28" height="26" class="combo"/>
-<text x="672" y="42" class="combo tap">DELETE</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 659)" class="layer-NAV">
@@ -638,10 +634,6 @@ path.combo {
 <text x="364" y="223" class="combo tap layer-activator">ALPHA</text>
 </a><text x="364" y="234" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="658" y="29" width="28" height="26" class="combo"/>
-<text x="672" y="42" class="combo tap">DELETE</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 988)" class="layer-ALPHA">
@@ -798,10 +790,6 @@ path.combo {
 <a href="#ALPHA">
 <text x="364" y="223" class="combo tap layer-activator">ALPHA</text>
 </a><text x="364" y="234" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="658" y="29" width="28" height="26" class="combo"/>
-<text x="672" y="42" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
