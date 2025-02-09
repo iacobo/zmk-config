@@ -31,12 +31,12 @@ layers:
   - W
   - V
   - Z
-  - DEL
+  - ''
   - {t: BACKSPACE, h: NUM}
   - {t: TAB, h: NAV}
   - {t: ENTER, h: NAV}
   - {t: SPACE, h: NUM}
-  - DEL
+  - ''
   NUM:
   - '`'
   - '!'
@@ -142,15 +142,17 @@ layers:
   - W
   - V
   - Z
-  - LSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESCAPE
   l: [BASE]
 - p: [32, 33]
   k: {t: ALPHA, h: toggle}
+- p: [8, 9]
+  k: DELETE
