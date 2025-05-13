@@ -21,7 +21,7 @@ layers:
   - {t: T, h: RALT}
   - {t: N, h: RWIN}
   - {t: S, h: RCTRL}
-  - ;
+  - {t: ;, h: LCTRL}
   - Q
   - J
   - K
@@ -30,7 +30,7 @@ layers:
   - M
   - W
   - V
-  - Z
+  - {t: Z, h: RCTRL}
   - ''
   - {t: BACKSPACE, h: NUM}
   - {t: TAB, h: NAV}
