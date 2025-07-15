@@ -142,10 +142,10 @@
         alpha_layer {
             display-name = "BASE";
             bindings = <
-  &kp SINGLE_QUOTE       &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F        &kp G                 &kp C         &kp R         &kp L
-  &hm_l LCTRL A          &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I        &kp D        &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
-  &hm_l LCTRL SEMICOLON  &kp Q         &kp J         &kp K                 &kp X        &kp B        &kp M                 &kp W         &kp V         &hm_r RCTRL Z
-                                       &none         &lt 1 BACKSPACE       &lt 2 TAB    &lt 2 ENTER  &lt 1 SPACE           &none
+  &kp APOS       &kp COMMA     &kp PERIOD    &kp P                 &kp Y        &kp F      &kp G                 &kp C         &kp R         &kp L
+  &hm_l LCTRL A  &hm_l LWIN O  &hm_l LALT E  &hm_shift_l LSHIFT U  &kp I        &kp D      &hm_shift_r RSHIFT H  &hm_r RALT T  &hm_r RWIN N  &hm_r RCTRL S
+  &kp SEMI       &kp Q         &kp J         &kp K                 &kp X        &kp B      &kp M                 &kp W         &kp V         &kp Z
+                               &none         &lt 1 BACKSPACE       &lt 2 TAB    &lt 2 RET  &lt 1 SPACE           &none
             >;
         };
 
@@ -174,7 +174,7 @@
             bindings = <
   &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD  &kp P   &kp Y     &kp F   &kp G   &kp C   &kp R  &kp L
   &kp A             &kp O      &kp E       &kp U   &kp I     &kp D   &kp H   &kp T   &kp N  &kp S
-  &kp SEMICOLON     &kp Q      &kp J       &kp K   &kp X     &kp B   &kp M   &kp W   &kp V  &kp Z
+  &kp SEMI          &kp Q      &kp J       &kp K   &kp X     &kp B   &kp M   &kp W   &kp V  &kp Z
                                &trans      &trans  &trans    &trans  &trans  &trans
             >;
         };
