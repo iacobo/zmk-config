@@ -8,7 +8,7 @@ A Dvorak layout for the 3x5 [Corne Choc Xiao](https://github.com/JonMuller/gerbe
 
 1. **Dvorak alpha layer**
    - Homerow mod keys for `^` `❖` `⎇` `⇧`
-   - `⌫``⇥` and `⮐``␣` under thumbkeys
+   - `⌫` `⇥` and `⮐` `␣` under thumbkeys
    - `⎋` and `⌦` chorded on top left/right pairs
    - Ambidextrous layer shift keys for **SymNum** and **Fn** layers
 2. **Symbols | Numpad layer**
