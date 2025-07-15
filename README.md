@@ -7,11 +7,10 @@
 A Dvorak layout for the 3x5 [Corne Choc Xiao](https://github.com/JonMuller/gerbers/tree/main/corne-choc-xiao) (aka Abomination). Features:
 
 1. **Dvorak alpha layer**
-   - Homerow mod keys for `Ctrl` `Gui` `Alt` `Shift`
-   - `Space` and `Backspace` under resting thumbkeys, `Enter` and `Tab` outwards
-     - (3rd inwards keys I don't really find necessary, have added `Del` but this could easily be chorded)
-   - Chorded `Esc` on top left (relative position on traditional keyboard)
-   - Ambidextrous layer shift keys for **SymNum** and **Func** layers
+   - Homerow mod keys for `^` `❖` `⎇` `⇧`
+   - `⌫``⇥` and `⮐``␣` under thumbkeys
+   - `⎋` and `⌦` chorded on top left/right pairs
+   - Ambidextrous layer shift keys for **SymNum** and **Fn** layers
 2. **Symbols | Numpad layer**
    - Related symbols paired `[]` `()` `#$` `!?` `_^` `|&` `+-` `\/`
    - `-` `/` in same relative pinky position as on Dvorak standard layout
