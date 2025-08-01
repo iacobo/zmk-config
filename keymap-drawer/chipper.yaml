@@ -112,36 +112,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ALPHA:
-  - ''''
-  - ','
-  - .
-  - P
-  - Y
-  - F
-  - G
-  - C
-  - R
-  - L
-  - A
-  - O
+  - Q
+  - W
   - E
+  - R
+  - T
+  - Y
   - U
   - I
-  - D
-  - H
-  - T
-  - N
+  - O
+  - P
+  - A
   - S
-  - ;
-  - Q
+  - D
+  - F
+  - G
+  - H
   - J
   - K
-  - X
-  - B
-  - M
-  - W
-  - V
+  - L
+  - ;
   - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
