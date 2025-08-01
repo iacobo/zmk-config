@@ -112,6 +112,43 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ALPHA:
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  QWERTY:
   - Q
   - W
   - E
@@ -157,3 +194,5 @@ combos:
 - p: [8, 9]
   k: DELETE
   l: [BASE]
+- p: [31, 34]
+  k: {t: QWERTY, h: toggle}
